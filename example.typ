@@ -3,12 +3,14 @@
 
 #set page(
     paper: "a4",
-    footer: notes.display(),
+    footer: notes.display(), // Footnotes
     footer-descent: 0pt
 )
 
 #notes.note[Page1][This is page one]
 #notes.note[Same Page][This is same page]
+
+#notes.display() // Endnotes
 
 #pagebreak()
 
