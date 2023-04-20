@@ -1,4 +1,4 @@
-#let cntrs = (:)
+
 #let cntrs_id = "note_cntr"
 #let notes = state("dict", (:))
 #let note(it, note) = {
